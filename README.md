@@ -8,5 +8,19 @@ A web API allows for information or functionality to be manipulated by other pro
 
 the term API, short for Application Programming Interface, refers to a part of a computer program designed to be used or manipulated by another program, as opposed to an interface designed to be used or manipulated by a human
 
-Contine on this paragrah (jan 23 2020)
-Creating a Basic Flask Application
+__HTTP__ (Hypertext Transfer Protocol) is the primary means of communicating data on the web. HTTP implements a number of “methods,” which tell which direction data is moving and what should happen to it. The two most common are GET, which pulls data from a server, and POST, which pushes new data to a server.
+
+__URL__ (Uniform Resource Locator) - An address for a resource on the web, such as https://programminghistorian.org/about. A URL consists of a protocol (http://), domain (programminghistorian.org), and optional path (/about). A URL describes the location of a specific resource, such as a web page. When reading about APIs, you may see the terms URL, request, URI, or endpoint used to describe adjacent ideas. This tutorial will prefer the terms URL and request to avoid complication. You can follow a URL or make a GET request in your browser, so you won’t need any special software to make requests in this tutorial.
+
+The query parameters follow the ? in the request, and are seperated from one another by the & symbol. 
+
+First, examine the provided URL for an id and select the books that match that id. The id must be provided like this: ?id=0. Data passed through URLs like this (after the ?) are called query parameters—we’ve seen them before when we worked with the Chronicling America API. They’re a feature of HTTP used for filtering for specific kinds of data.
+
+This part of the code determines if there is a query parameter, like ?id=0, and then assigns the provided ID to a variable.
+
+Example
+'/api/v1/resources/books',
+http://127.0.0.1:5000/api/v1/resources/books?id=0
+
+Contine on this paragrah (jan 28 2020)
+API Design Principles
