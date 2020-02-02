@@ -22,7 +22,8 @@ Example
 '/api/v1/resources/books',
 http://127.0.0.1:5000/api/v1/resources/books?id=0
 
-Contine on this paragrah (jan 28 2020)
-API Design Principles
 
 The prevailing design philosophy of modern APIs is called REST. For our purposes, the most important thing about REST is that it’s based on the four methods defined by the HTTP protocol: POST, GET, PUT, and DELETE. These correspond to the four traditional actions performed on data in a database: CREATE, READ, UPDATE, and DELETE. 
+
+Continue (feb 20 2020)
+Connecting Our API to a Database
